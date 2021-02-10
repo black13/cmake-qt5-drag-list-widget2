@@ -19,7 +19,7 @@ private:
     QListWidget* itemListWidget;
     QGraphicsView* view;
     QGraphicsScene* scene;
-
+    void createListWidget();
     void createWidgets();
     void createSceneAndView();
     void createGraphicsItems();
